@@ -2,7 +2,7 @@
   rgb(255,125,000)           (it is known as RGB)
   #0022ff                   (it is known as HEX)
 
-2. Selectors in CSS
+2. `Selectors in CSS`
   1. Universal selector *{} (universal known as  asterisk)
   2. Element selector  h1{}  
   3. Id selector    #myid{}
