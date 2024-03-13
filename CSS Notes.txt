@@ -1,0 +1,13 @@
+1. Color system in CSS
+  rgb(255,125,000)           (it is known as RGB)
+  #0022ff                   (it is known as HEX)
+
+2. Selectors in CSS
+  1. Universal selector *{} (universal known as  asterisk)
+  2. Element selector  h1{}  
+  3. Id selector    #myid{}
+  4. .class selector .myc{}
+
+3. Unit in CSS
+  1. pixels (px) 96px = 1 inchn
+   2. px,em,%,rem,vh,wh
