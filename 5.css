@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+#navbar{
+    height: 60px;
+    background-color: rgb(000,000,000);
+    color: green
+}
+button{
+    background-color: #f0880f ;
+}
+#logo{
+    color: #f0880f;
+    font-size: 40px;
+}
+a{
+    margin-right:  200px;
+    text-decoration: none;
+}
+
+.hh{color: black;
+    border: solid;
+    border-style: solid;
+    border-width:4px;
+    margin: 5px;
+    display: inline-block;
+    background-color: pink;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    text-align:center;
+
+
+}
