@@ -1,0 +1,25 @@
+div{
+    background-color: yellow;
+    height: 50px;
+    display: inline;
+}
+button{
+    display: block;
+}
+#b1{
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+#b2{
+    height: 50px;
+    background-color: red;
+    display: inline;
+}
+#b3{
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+}
+
+
