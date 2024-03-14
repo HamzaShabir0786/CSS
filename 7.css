@@ -1,0 +1,19 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+@media(min-width:400px)and{
+    h2{color: red;}
+}
+@media(min-width:500px){
+    h2{color: blue;}
+}
+@media(min-width:600px){
+    h2{
+        color: turquoise;
+    }
+}
+@media(min-width:700px) and (max-width:800px){
+    h2{color: silver;}
+}

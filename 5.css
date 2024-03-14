@@ -6,7 +6,9 @@
 #navbar{
     height: 60px;
     background-color: rgb(000,000,000);
-    color: green
+    color: navajowhite;
+    position:sticky ;
+    top: 0px;
 }
 button{
     background-color: #f0880f ;
@@ -31,6 +33,12 @@ a{
     width: 250px;
     margin-left: 20px;
     text-align:center;
+    position: relative;
+    left:293px;
+    background-image: url("pic_aii.jpg");
+    background-size: cover;
+    justify-content: center;
+
 
 
 }

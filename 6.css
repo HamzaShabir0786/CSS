@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+
+
+#box1{background-color: rebeccapurple;}
+#box2{background-color: palevioletred;}
+#box3{background-color: red;}
+#box4{background-color: darkviolet;}
+#box5{background-color: skyblue;}

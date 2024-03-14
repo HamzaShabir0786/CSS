@@ -11,3 +11,20 @@
 3. Unit in CSS
   1. pixels (px) 96px = 1 inchn
    2. px,em,%,rem,vh,wh
+
+4.position: there are few positon of css.
+    static, relative , absolute, fixed,sticky,z-index
+
+5.Background Size.
+   cover, contain, auto
+
+6.Flexbox Direction
+   row, row-reverse, column,column-reverse
+
+7.Flex Properties.
+justify-content, flex-wrap, align-items, align-content
+
+8.Flex Properties (for flex item)
+align-self, flex-grow, flex-shrink
+
+  
