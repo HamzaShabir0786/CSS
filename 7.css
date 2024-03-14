@@ -1,19 +1,38 @@
 div{
     height: 150px;
     width: 150px;
-    background-color: blue;
+    background-color: blueviolet;
+
 }
-@media(min-width:400px)and{
+h2{color: blueviolet;}
+
+@media(min-width:400px){
+    div{background-color:red;}
+}
+@media(min-width:500px){
+    div{background-color: blue;}
+}
+@media(min-width:600px){
+    div{background-color: turquoise; }
+}
+
+@media(min-width:700px) and (max-width:800px){
+    div{background-color: silver;}
+}
+
+@media(min-width:400px){
     h2{color: red;}
 }
+
 @media(min-width:500px){
     h2{color: blue;}
 }
+
 @media(min-width:600px){
     h2{
-        color: turquoise;
-    }
+        color: turquoise;}
 }
+
 @media(min-width:700px) and (max-width:800px){
     h2{color: silver;}
 }
