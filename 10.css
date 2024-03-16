@@ -1,0 +1,53 @@
+#hover{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 3px solid green;
+    font-size: 30px;
+    display: inline-block;
+    
+}
+
+#hover:hover{
+    background-color: red;
+    color: green;
+    font-family: cursive;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+#Active{
+    
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        border: 3px solid green;
+        font-size: 30px;
+        display:inline-block;
+}   
+#Active:active{
+    background-color: red;
+    color: green;
+    font-family: cursive;
+    
+}
+
+#time-function{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 3px solid green;
+    font-size: 30px;
+    display:inline-block;
+    
+}    
+#time-function:active{
+    background-color: red;
+    color: green;
+    font-family: cursive;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: steps(5);
+    }
+    
+    

@@ -26,5 +26,37 @@ justify-content, flex-wrap, align-items, align-content
 
 8.Flex Properties (for flex item)
 align-self, flex-grow, flex-shrink
+-------------------------------------
 
-  
+9. div{
+    height: 100px;
+    width: 200px;
+    background-color: red;}
+
+@media (min-width: 800px){
+    div{background-color: aqua;}}
+--------------------------------------------
+
+10.Transitions
+   transition-property :font-size, width, etc..
+   transition-duration: 3s/5ms..
+   transition-timing-function: ease-in/ ease-out/ liner/ step..
+   transition-delay: 2s/5ms, etc  
+
+
+11 transition-property: all; 
+    transition-duration: 3s;  
+    transition-timing-function: steps(4);
+
+
+
+12 Transition shorthand.
+ property name|duration| timing-function|delay
+ like this is the demo .. transition: all 3s step 1s
+
+
+13 CSS Transform..
+     transform:rotate(45deg);
+      transform:rotateY(45deg);
+      transform:rotateZ(45deg);
+      transform:rotateX(45deg);
