@@ -1,0 +1,15 @@
+div{
+width: 200px;
+height: 200px;
+background-color: green;
+margin-left: 550px;
+margin-top: 300px;
+}
+div:hover{
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: steps;
+    transform: skew(45deg);
+    background-color: pink;
+}

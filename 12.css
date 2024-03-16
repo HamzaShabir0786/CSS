@@ -1,0 +1,18 @@
+div{width: 200px;
+height: 200px;
+background-color: silver;
+margin-top: 200px;
+margin-left: 600px;
+text-transform: capitalize;
+
+display:flex;
+justify-content: center; 
+align-items: center;
+}
+div:active{transition-property: all;
+        transition-duration: 5s;
+        transition-delay: 2ms;
+        transition-timing-function: steps();
+        transform: translateX(550px); 
+        background-color: rgb(231, 232, 26);  
+    }

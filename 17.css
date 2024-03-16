@@ -1,0 +1,25 @@
+div{
+    width: 400px;
+    height: 300px;
+    background-color: greenyellow;
+    animation-name: myani;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:step;
+    position: absolute;
+    transform: scale(550deg);
+}
+@keyframes myani{
+    0%{background-color: greenyellow; left: 10px;}
+    10%{background-color:darkmagenta; left: 20px;}
+    20%{background-color: blue; left: 30px;}
+    30%{background-color: darkgray; left: 40px;}
+    40%{background-color: brown; left: 50px;}
+    50%{background-color: darkblue; left: 60px;}
+    60%{background-color: dodgerblue;left: 70px;}
+    70%{background-color: green;left: 70px;}
+    80%{background-color: black;}
+    90%{background-color: yellow;}
+    100%{background-color: red; left: 290px; }
+}

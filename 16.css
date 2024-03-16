@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    animation-name: d1;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-direction:alternate
+    
+
+}
+@keyframes d1{
+    from{background-color: goldenrod;
+            left: 0px;
+        color: black;
+        font-family: default;}
+  to{background-color: red;
+            left: 1370px;
+        color: blue;
+        font-family: cursive;}      
+
+ }
+
+ 
