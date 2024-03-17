@@ -62,5 +62,38 @@ align-self, flex-grow, flex-shrink
       transform:rotateZ(45deg);
       transform:rotateX(45deg);
 
+14 Scale property..
+   used for anything to reduce or spread.
 
-update for checking
+     transform:scale(2);
+      transform:scarle(0.5);
+      transform:scaleY(2)
+	transform:scaleX(2)
+15 Skew property..
+  transform:skew(72deg)
+
+16 Animation
+   used for to animate css elements
+	Animation properties.
+	animation-name
+	animation-duration
+	animation-timing-function
+	animation-delay
+	animation-iteration-count
+	animation-direction
+
+@keyform myname{
+from{font-size:20px}
+to{font-size:40px}
+}  
+ 
+17 Animation Shorthand
+animation:myname 2s linear 3s infinite normal
+
+18 % in Animation
+@keyframe myname{
+0% {font-size:20px;}
+40%{font-size:30px;}
+89%{font-size:40px;}
+}
+

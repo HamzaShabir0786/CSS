@@ -1,0 +1,21 @@
+
+body{background-color:black;}
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 200px;
+    margin-left: 500px;
+
+
+
+}
+div:hover{
+    transition: all;
+    transition-duration: 4s;
+    transition-delay: 1ms;
+    transform: scale(2,2.3); /*first value for x exis and then second valur for y exis */
+    background-color: green;
+    
+
+}

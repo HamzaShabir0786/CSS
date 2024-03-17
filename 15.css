@@ -1,0 +1,14 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    animation-name:deco;
+    animation-duration: 0.24s;
+    /* animation-timing-function: step; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes deco{
+    from{background-color: black;}
+    to {background-color: red;}
+}

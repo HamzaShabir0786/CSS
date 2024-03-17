@@ -1,0 +1,223 @@
+
+ 
+body{
+    background-color: lightblue;
+    padding-left: 10px;
+}
+#hamza,#hamzi,#hamzu,#ai, #new{
+    width: 285px;
+    padding-left: 0px;
+    height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10%;
+}
+
+h1{
+    text-align: center;
+    border-style: solid;
+    border-top-color: skyblue;
+    border-bottom-color: yellow;
+    border-right-color: green;
+    border-left-color: blueviolet;
+    border-width: 8px;
+     background-color: whitesmoke; 
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+#s1{
+    border-style: solid;
+    background-color: purple;
+    color: antiquewhite;
+    border-color: blue;
+    border-radius: 20%;
+    border-width: 5px; 
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+/* you can see here hover property and his functions*/
+h1:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: black;
+}
+#c25:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    color: whitesmoke;
+}
+#c6:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    color: whitesmoke;
+}
+#g1:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(5);
+    color: brown;
+    font-family: cursive;}
+#g2:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(3);
+    color: blue;
+    font-family: cursive;
+}
+#g3:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    color: green;
+    font-family: cursive;
+}
+#hamza:hover{
+    transition-property: all; 
+    transition-duration: 2s;  
+    transition-timing-function: steps(4);
+    border-color: palevioletred;
+    border-style: dashed;
+}
+#hamzi:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(2);
+    border-color: green;
+    border-style: dotted;
+}
+#hamzu:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(2);
+    border-color: red;
+    border-style: double;
+}
+#ai:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(2);
+    border-color: silver;
+    border-style:groove;
+}
+#s1:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps();
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    border-style: solid;
+    border-color: green;
+}
+#new:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(2);
+    border-color: navy;
+    border-style: inset;
+}
+
+#x:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: green;
+    border-style: double;
+    border-top-color: palevioletred;
+    border-bottom-color: blue;
+    border-left-color: green;
+    
+}
+
+#first:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    color: green;
+    font-family: cursive;
+    background-color: black;
+    
+    
+}
+#p1:hover{
+
+    transition-property:all ;
+    transition-duration: 2s;
+    color: green;
+    text-decoration: none;    
+}
+#p2:hover{
+    transition-property:all ;
+    transition-duration: 2s;
+    color: green;
+    text-decoration: none;
+}
+#p3:hover{
+    transition-property:all ;
+    transition-duration: 2s;
+    color: green;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px){
+    h1{background-color: slateblue;}}
+    
+@media(max-width:1000px){   
+     #c6{color: white;}}
+        
+        
+        
+        
+        #gg3,#gg4{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 8px;
+    border-left-color: brown;
+    border-right-color: yellow;
+    border-bottom-color: skyblue;
+    border-top-color: green;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+
+#c1{color: skyblue;}  
+#c2{color: red;}   
+#c3{color: blueviolet;} 
+#c4{color: darkorchid;} 
+#c5{color:gold;} 
+#c6{color:black;}
+#c7{color: rosybrown;}
+#c8{color: cyan;}
+#c9{color: blue;}
+#c10{color: greenyellow;}
+#c11{color: pink;}
+#c12{color: darkred;}
+#c13{color: aquamarine;}
+#c14{color: crimson;}
+#c15{color: fuchsia;}
+#c16{color: darkgreen;}
+#c17{color: orange;}
+#c18{color: purple;}
+#c19{color: aquamarine;}
+#c20{color: crimson;}
+#c21{color: fuchsia;}
+#c22{color: rgb(109, 218, 109);}
+#c23{color: orange;}
+#c24{color: purple;}
+
+#s1{
+    text-align: center;
+}
+ #x{ 
+    border-style:   dotted;
+    border-width: 2.3px;
+    border-color: red;
+    border: none;
+} 
+
+
