@@ -3,7 +3,7 @@ div{
     height: 300px;
     background-color: greenyellow;
     animation-name: myani;
-    animation-duration: 2s;
+    animation-duration: 7s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function:step;
