@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+div{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+  margin-top:70px;
+  margin-left: 110px;
+  text-align: center;
+  transform: rotate(18550deg);
+  text-transform: capitalize;
+  
+}
+div:hover{
+    transition-property: all;
+    transition-duration: 555s;
+    transition-timing-function: steps();
+    background-color: red;
+    transform: rotate(9deg);
+}
+=======
 div{width: 200px;
 height: 200px;
 background-color: silver;
@@ -16,3 +36,4 @@ div:active{transition-property: all;
         transform: translateX(550px); 
         background-color: rgb(231, 232, 26);  
     }
+>>>>>>> 1c123e0216dd479c4bab48a846cca155b5fa264a
