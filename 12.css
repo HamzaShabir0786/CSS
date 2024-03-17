@@ -1,0 +1,18 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+  margin-top:70px;
+  margin-left: 110px;
+  text-align: center;
+  transform: rotate(18550deg);
+  text-transform: capitalize;
+  
+}
+div:hover{
+    transition-property: all;
+    transition-duration: 555s;
+    transition-timing-function: steps();
+    background-color: red;
+    transform: rotate(9deg);
+}

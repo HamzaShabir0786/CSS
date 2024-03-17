@@ -47,6 +47,7 @@ align-self, flex-grow, flex-shrink
 11 transition-property: all; 
     transition-duration: 3s;  
     transition-timing-function: steps(4);
+    transition-delay: 3s;
 
 
 
