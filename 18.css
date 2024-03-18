@@ -47,6 +47,7 @@ div:hover{
 #p3{
     height: 200px;
     width: 200px;
+    border-width:0.1px;
     background-color: none;
     border-style: solid;
     border-radius: 50%;
