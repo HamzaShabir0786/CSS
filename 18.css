@@ -84,7 +84,7 @@ display:contents;
     border-top-color: white;
     border-bottom-color: paleturquoise;
     border-left-color: yellow;
-    border-right-color: gold;
+    border-right-color: gold
     
 }
 #p1{
@@ -92,14 +92,37 @@ display:contents;
     font-size: 50px;
     position: absolute;
     top: 150px;
-    margin-left: 500px;
+    margin-left: 510px;
+    animation-name: p1;
+    animation-duration:2s;
+    animation-direction: alternate;    
 }
+
+#p2{
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 490px;
+    animation-name: p2;
+    animation-duration:2s;
+    animation-direction:reverse; 
+    animation-delay: 0s; 
+
+    
+}
+
 #p1:hover{
-    transition: all;
+    transition-property: all;
     transition-duration: 2s;
     transition-delay: 0s;
     top: 69px;
     color: blue;
+}
+#p2:hover{transition: all;
+    transition-duration: 2s;
+    color: blue;
+
 }
 body{
    
@@ -146,5 +169,11 @@ p:hover{
     to { margin-top: 500px; }
 
 }
-
-
+@keyframes p1{
+    from{top: 50px;}
+    to { bottom: 100px;}
+}
+@keyframes p2{
+    from{margin-top: 30px;  }
+    to{margin-top: 650px; }
+}
