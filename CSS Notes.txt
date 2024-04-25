@@ -72,7 +72,7 @@ align-self, flex-grow, flex-shrink
 15 Skew property..
   transform:skew(72deg)
 
-16 Animation
+16 Animation:
    used for to animate css elements
 	Animation properties.
 	animation-name
@@ -87,13 +87,59 @@ from{font-size:20px}
 to{font-size:40px}
 }  
  
+
 17 Animation Shorthand
 animation:myname 2s linear 3s infinite normal
 
-18 % in Animation
+18.. % in Animation
 @keyframe myname{
 0% {font-size:20px;}
 40%{font-size:30px;}
 89%{font-size:40px;}
 }
 
+19..absolute legnht:
+     1 pixels (px) 1px = 6.24%
+     2 inches (in)
+     3 points (pt)
+
+20.. Relative legnht:
+     4 em   Note: 1em = 16 px
+     5 Root em (rem)
+     6 percantage (%) Note: 100% = 16px
+
+
+21..Font-Properties:
+   1 font family
+   2 font weight
+   3 font size
+   4 font style
+   5 font variant     
+
+22..Text properties:
+   1 Text Alignment
+   2 Text decoration:
+         1. text-decoration-style
+         2.  text-decoration-line
+         3. text-decoration-color
+         4. text-decoration-thickness
+   3 text transform:
+         1. lowercase
+         2. uppercase
+         3. capitalize
+   4 text spacing
+         1. letter-spacing
+         2. word-spacing
+         3. line-height
+         4. white-space
+   5 text shadow:
+         1. text-shadow:2px 3px 20px red;
+         Note: 2px is horizontal, 3px is vartical, 20px is blur and in last Color.
+
+23..pseudo class:
+    p::first-letter{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 50px;
+   }         
+ 

@@ -12,12 +12,12 @@ div{
 
 }
 @keyframes d1{
-    from{background-color: goldenrod;
+    from{background-color: blue;
             left: 0px;
         color: black;
         font-family: default;}
   to{background-color: red;
-            left: 1370px;
+            left: 1340px;
         color: blue;
         font-family: cursive;}      
 

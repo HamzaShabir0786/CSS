@@ -1,0 +1,15 @@
+p{
+    color: red;
+    font-size: 22px;
+    font-style: bold;
+    text-align: center;
+    top: 193px;
+    left: 37%;
+    position: absolute;
+    text-shadow: 2px 5px 30px red;
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 50px;
+}

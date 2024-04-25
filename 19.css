@@ -1,5 +1,12 @@
-div{
-    height: 200px;
-    width: 200px;
-    border-radius: 200px;
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZw49295Jhr5H7HsvYSNE5tSHFDtNKOBbfuIsJDBUZ4RybH0lL0pmbE_v3Wtt94e8SF8E&usqp=CAU");
+    background-repeat:no-repeat;
+    background-size:cover; 
+    /* background-position: left; */
+    background-blend-mode:overlay;
+
+
+}
+h1{
+    text-align: ;
 }

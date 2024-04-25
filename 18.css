@@ -1,3 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    position: sticky;
+    background-color: gray;
+    height: 70px;
+    
+}
 .search{position: absolute;
     display: inline-block;
     height: 200px;
@@ -67,7 +80,7 @@
      border-style: none;  
     margin-top: 01px;
      
-     display: inline-block;
+     display: inline-block	;
     
     
 }
@@ -102,41 +115,52 @@ display:contents;
     color: green;
     font-size: 50px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-left: 490px;
     animation-name: p2;
     animation-duration:2s;
     animation-direction:reverse; 
     animation-delay: 0s; 
-
+    text-shadow: 2px 4px 5px red;
     
 }
+#p2::first-letter{
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 400;
+}
+
 
 #p1:hover{
     transition-property: all;
     transition-duration: 2s;
     transition-delay: 0s;
-    top: 69px;
+    top: 50px;
     color: blue;
 }
 #p2:hover{transition: all;
     transition-duration: 2s;
-    color: blue;
+    color: blue;    
 
 }
+
 body{
-   
+   position:sticky;
     background-color: black;
 }
 .h1{
     color: palevioletred;
     text-align: center;
-    position: absolute;
+    /* text-align: justify; */
+    
+    position:absolute; 
     transition-duration: 3s;
     margin-left: 10px;
     font-size: 13px;
     top: 400px;
     font-family: cursive;
+    margin: 0px; 
+    /* padding: 0px; */ /*Note: it's optional */
 }
 p:hover{
     color: green;
@@ -144,12 +168,12 @@ p:hover{
 #air{
     height: 100px;
     width: 500px;
-    border-style: solid;
+    border-style:ridge;
     border-color: green;
     border-width:10px ;
     border-radius: 10px;
     background-color: white;
-    position:normal;
+    position:static;    
     margin-left: 490px;
     margin-top: 150px;
     animation-name: haha;
@@ -165,13 +189,13 @@ p:hover{
 
 }
 @keyframes haha{
-    from{margin-top: 150px; }
-    to { margin-top: 500px; }
+    from{margin-top: 100px; }
+    to {margin-top: 570px; }
 
 }
 @keyframes p1{
     from{top: 50px;}
-    to { bottom: 100px;}
+    to { bottom: 150px;}
 }
 @keyframes p2{
     from{margin-top: 30px;  }
