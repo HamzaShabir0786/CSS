@@ -1,5 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
     color: red;
     text-align: center;
+    font-size: 50px;
 }
-body{ image}
+
+#div1{ 
+width: 1000px;
+height: 1000px;
+}
+section{
+    background-image: linear-gradient(to bottom right, #0d5124, #d56821, #05ff90, #0125ff) ;
+    width: 100%;
+    height: 100vh;
+    transition-duration: 5s;
+    transition-delay: 1;
+    
+    
+}
+section:hover{
+    background-image: linear-gradient(to bottom right, #ff0124, #f09ff0, skyblue, silver ) ;
+    
+
+}

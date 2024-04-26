@@ -157,5 +157,8 @@ animation:myname 2s linear 3s infinite normal
     {box-sizing:border-box
     box-sizing :content-box} Note: watch this video ---> https://www.youtube.com/watch?v=MSICFljRcb4&t=10242s&ab_channel=ThapaTechnical
  
-38.. Gradient:
+38.. linear-Gradient:
       {background-image: linear-Gradient(red, yellow);} Note: we add minimum two colors..
+
+39..repeating-linear-Gradient:
+      {background-image: repeating-linear-Gradient(red, yellow);}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 2;
+    box-sizing: border-box;
+}
+section{
+    background-image: repeating-linear-gradient(to bottom , rgba(295,023,231,0.9)) 
+    url(car4.jpg);
+    width: 100%;
+    height: 100vh;
+    
+   
+    
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}

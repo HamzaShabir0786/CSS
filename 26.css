@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* #div1{ 
+width: 1000px;
+height: 1000px;
+} */
+section{
+    background-image: repeating-linear-gradient(to bottom right, #0d5124, #d56821, #05ff90, #0125ff 595px) ;
+    width: 100%;
+    height: 100vh;
+   
+    
+}
