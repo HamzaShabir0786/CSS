@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 3px 10px blue;
+    border: 2px solid gray;
+    position: relative;
+    border-right: 15px;
+    box-shadow: 2px 2px 22px 5px red;
+    
+}
+body{
+    background-color: slategray;
+   
+}
+div{
+    width: 220px;
+    height: 230px;
+    border: 2px solid red;
+    font-family: "Pacifico", cursive;
+    font-weight: 500px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 350px;
+    left: 800px;
+    position: absolute;
+    text-shadow: 2px 5px 10px  red;
+    display:flex;
+    justify-content: center;  /* Aligns content horizontally center */
+    align-items: center;      /* Aligns content vertically center */
+    /* height: 200px;   */
+    box-shadow: 2px 2px 100px 5px red;
+
+}
+
+
+
+#div2{
+    width: 220px;
+    height: 230px;
+    border: 2px solid red;
+    font-family: "Pacifico", cursive;
+    font-weight: 500px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 350px;
+    left: 550px;
+    border-radius: 50% ;
+    position: absolute;
+    text-shadow: 2px 5px 10px  red;
+    display:flex;
+    justify-content: center;  /* Aligns content horizontally center */
+    align-items: center;      /* Aligns content vertically center */
+    /* height: 200px;   */
+    box-shadow: 2px 2px 100px 5px blue;
+
+}

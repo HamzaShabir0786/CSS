@@ -136,10 +136,26 @@ animation:myname 2s linear 3s infinite normal
          1. text-shadow:2px 3px 20px red;
          Note: 2px is horizontal, 3px is vartical, 20px is blur and in last Color.
 
-23..pseudo class:
+23..psudo class:
     p::first-letter{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 50px;
    }         
  
+24..Border:
+            I think , its concept cleared
+
+
+25.. Padding:        
+    {Padding:2px 3px 5px 80px } (Note:2px top, 3px right, 5px bottom and 8opx left)
+
+26.. Margin:    
+    {Margin:2px 3px 5px 80px } (Note:2px top, 3px right, 5px bottom and 8opx left)
+
+27.. Box Model:    
+    {box-sizing:border-box
+    box-sizing :content-box} Note: watch this video ---> https://www.youtube.com/watch?v=MSICFljRcb4&t=10242s&ab_channel=ThapaTechnical
+ 
+38.. Gradient:
+      {background-image: linear-Gradient(red, yellow);} Note: we add minimum two colors..
