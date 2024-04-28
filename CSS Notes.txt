@@ -169,3 +169,29 @@ animation:myname 2s linear 3s infinite normal
 41..box-shadow:
         box-shadow: -2px 1px 3px #4px #223452 
         Note:-2px is offset Y, 1px is offset X, 3px is blur/radius, 4px is density,spread and last color
+
+42..Drop-shadow:
+        drop-shadow: -2px 1px 3px # #223452
+        Note:-2px is offset Y, 1px is offset X, 3px is blur/radius, and last color
+        Ngain Note: difference between drop and box shadow is that there is no spread in drop shadow. 
+        Once again Note: it's not cleared me.
+
+43..Filters:
+    1 grayscale()
+    2 blur()
+    3 brightness()
+    4 opacity()
+    5 contrast()
+    6 inver()
+
+44..List is CSS: 
+    1 List-style-image
+    2 list-style-type
+    3 list-style-position
+    4 list-style-property  
+
+45..Anchor in CSS:
+    1 Link(`a:link`)
+    2 visted(`a:visted`)
+    3 Hover(`a:hover`)
+    4 Active(`a:Active`)

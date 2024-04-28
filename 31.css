@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#p1{
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: 0px;
+    margin-top: 0px;
+    filter:blur(1px); 
+}
+#p2{
+    
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: -2px;
+    margin-top: 0px;
+    /* filter:brightness(300%); #Note we can also increase brightness as well as decrease */
+    filter:brightness(50%)
+}
+
+#p3{
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: -3px;
+    margin-top: 0px;
+    filter:contrast(200%); 
+}
+#p4{
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: -3px;
+    margin-top: 0px;
+    filter:saturate(9);
+}
+#p5{
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: -3px;
+    margin-top: 0px;
+    filter:invert();
+}
+#p6{
+    width :18%;
+    height: 20%;
+    background-size: cover;
+
+    margin-left: -3px;
+    margin-top: 0px;
+    filter:opacity(0.4);
+}
+
