@@ -1,0 +1,15 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+section{background-image: radial-gradient(ellipse, red ,green ,black , gray,yellow,blue,pink,silver,gold,maroon ,skyblue,pink,gold,blue,white,darkblue,purple, darkgreen,maroon, black, white,red, gray,yellow,pink, blue,crimson,darkred,hotpink,indianred,white,chocolate,green,silver);
+
+
+}
+
+/* section{background-image: radial-gradient(circle, purple ,blue, darkgreen );
+
+
+} */
+div{width: 100%;
+height: 100vh;}

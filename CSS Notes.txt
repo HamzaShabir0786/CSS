@@ -162,3 +162,10 @@ animation:myname 2s linear 3s infinite normal
 
 39..repeating-linear-Gradient:
       {background-image: repeating-linear-Gradient(red, yellow);}
+
+40..Radial Gradient:
+        {Background-image: Radial-Gradient(circle, red, green)} we have thwo values firstly circle and secondly ellipse as well as we use percantagies of color apparency.
+
+41..box-shadow:
+        box-shadow: -2px 1px 3px #4px #223452 
+        Note:-2px is offset Y, 1px is offset X, 3px is blur/radius, 4px is density,spread and last color
