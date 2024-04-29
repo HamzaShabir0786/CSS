@@ -195,3 +195,9 @@ animation:myname 2s linear 3s infinite normal
     2 visted(`a:visted`)
     3 Hover(`a:hover`)
     4 Active(`a:Active`)
+
+46..Combinators:
+    1 Decendent selector    Note:it's nothig but (space)
+    2 Child selector(>)
+    3 Adjacent sibling selector (+)
+    4 General sibling selector (~)

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{background-color: red;
+text-decoration: none;
+border-style: groove;
+border-color: green;
+border-width: 8px;
+margin-left: 700px;
+margin-top: 200px;
+position: absolute;
+
+
+}
+a:hover{
+    background-color: blue;
+}
+a:active{
+    background-color: whitesmoke;
+}
+/* a:visited{
+    background-color: silver;
+
+} */
