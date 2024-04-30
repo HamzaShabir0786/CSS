@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div{background-image: linear-gradient(to left, darkblue,blue);
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+} */
+#d1 {
+    background-image: linear-gradient(to left, purple,deeppink);
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 80px;   
+    font-style: italic;
+    text-shadow: 4px 2px 9px blue;
+    position:sticky;
+}
+.cls{
+ 
+
+    background-image: linear-gradient(to left, blue,deeppink);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 102vh;
+    /* position:absolute; */
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+#d2{
+    background-image: linear-gradient(to left, purple,green);
+    
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 102vh;
+  
+    display: inline-block;   
+    
+}
+#in{
+    border: solid;
+    border-width: 8px;
+    border-color: green;
+    display: inline-block;
+    text-decoration: double;
+    /* margin-left: -990px; */
+    background-color: pink;
+    position: fixed;
+    top: 50px;
+
+}
+#d3{
+    background-image: linear-gradient(to left, darkblue,skyblue);
+    
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 102vh;
+     
+    
+}
+
+#d4{
+    background-image: linear-gradient(to left, gray,pink);
+    
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 102vh;
+       
+    
+}
+
+
+#d5{
+    background-image: linear-gradient(to left, maroon,gold);
+ 
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 102vh;
+    
+    
+}

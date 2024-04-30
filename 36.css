@@ -1,0 +1,51 @@
+/* position:
+        1 relative
+        2 absolute
+        3 static
+        4 sticky
+        5 fixed */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to left, blue,darkblue,brown ,deeppink);
+}
+#parent{
+    width: 400px;
+    height: 400px;
+  position: relative;
+  margin-left: 520px ;
+  margin-top: 100px; 
+  border: 8px solid mediumslateblue;
+  box-shadow: 2px 1px 20px 9px mediumslateblue;
+  border-radius: 8px;
+  background-color: darkblue;
+}   
+
+#div2{
+    width: 150px;
+    height: 150px;
+     position: absolute;
+    background-color: green;
+    /* margin-left: 110px;
+    margin-top: 110px; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*use this method child div perfet center*/
+    border: solid 2px  red;
+    box-shadow: 2px 3px 61px 9px palevioletred;
+}
+h2{
+    margin-left: 90px;
+    
+    color: white;
+     
+
+}
+h3{
+    margin-left: 30px;
+    color: white;
+    margin-top: 60px;
+}

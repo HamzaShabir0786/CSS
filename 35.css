@@ -1,0 +1,32 @@
+/* Display:
+        1 Block
+        2 Inline
+        3 Inline-block */
+
+        *{margin: 0;
+        padding: 0;
+        }
+p{
+    background: linear-gradient(to left ,navy, blue, purple, darkgreen);
+    /* box-shadow: rgb(0,88,0); */
+    color: white;
+    text-align: center;
+
+}        
+a{
+    background: linear-gradient(to left,navy,darkblue,blue);
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 120px;
+    
+    text-align: center;
+
+    border:3px solid darkmagenta;
+    padding: 10px;
+    border-radius: 10px;
+    display:inline-block;
+
+
+}
