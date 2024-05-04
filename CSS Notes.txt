@@ -223,8 +223,49 @@ animation:myname 2s linear 3s infinite normal
     4 column-rule-color:red;
     5 column-rule-style:solid;
     6 column-rule-width;
-    5 Coulmn-fill                       
-                    
+    5 Coulmn-fill     
+
+50..z-index:
+    z-index:1;      Note: it's use for prioritey to apparency of elements.        
+
+
+51..Overflow:                  
+    1 Overflow:visible; NOte: it's a default value.
+    2 Overflow:scroll;
+    3 Overflow:Hidden;
+    4 Overflow:Auto;
+
+52..WhiteSpace:
+    1 WhiteSpace:nowrap; Note: with this property all text convert in single horizontal line.
+
+53..pseudo Elements:
+    1 ::before
+    2 ::after
+    3 ::first-letter
+    4 ::first-line
+    5 ::selection
+    6 ::placeholder
+
+54..pseudo class:
+    1 :hover
+    2 :first-child
+    3 :last-child
+    4 :nth-child(1)
+    5 :first-of-type
+    6 :last-of-type 
+
+
+55..flex box:
+    1 Display:flex;
+    2 flex-direction:Coulmn;
+    3 justify-content:center;
+    4 align-items:center;
+    5 flex-grow:1;
+    6 flex-shrink:5;
+    7 gap:4px;
+    8 flex-basis:4px;
+    9 flex-wrap:wrap;
+    5 aspect-ratio:1; NOte: it does double size of elements..
 
 
 
