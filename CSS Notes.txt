@@ -201,9 +201,22 @@ animation:myname 2s linear 3s infinite normal
     2 Child selector(>)
     3 Adjacent sibling selector (+)
     4 General sibling selector (~)
-                        
 
-47..Coulmn:
+47.. Display in CSS:
+    1 Block 
+    2 inlne-Block
+    3 inline
+
+
+48..Position in CSS:
+    1 Relative
+    2 static
+    3 sticky
+    4 absolute
+    5 fixed
+
+
+49..Coulmn:
     1 column-count: 3;
     2 column-rule: 4px green solid; Note: 4px width, green color, solid column style , same as border..
     3 column-gap: 40px;
