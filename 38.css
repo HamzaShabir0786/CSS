@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Sevillana&display=swap');
+
+
+
+*{
+    padding: 0;
+ box-sizing: border-box;
+    margin: 0;
+}
+#d1{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to left ,green, darkblue ,maroon);
+    
+    color: green;
+   
+    font-style: italic;
+    position:fixed;
+    border-top-style: groove ;
+    border-top-width: 0px;
+    
+    border-color: blueviolet;
+
+}
+h1{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 40%;
+
+    text-shadow: 2px 3px 1px  blue;
+} 
+
+#d2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left , darkblue , #022200);
+    margin-top: 58px;
+    position: static;
+   
+
+}
+p{
+    color: paleturquoise;
+    font-style: italic;
+    font-family: "Sevillana", cursive;
+    font-size: 25px;
+    /* letter-spacing: 1px; */
+    word-spacing: 10px;
+}
+
+#d3{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: linear-gradient(to left , purple , #022200);
+
+   
+}
+img{
+    /* margin-left: 90px;
+    margin-top: 90px; */
+    height: 400px;
+    width: 400px;
+    position:static;
+    border-radius: 50px;
+    /* border-style: solid;
+    border-color: red;
+    box-shadow: 2px 2px 12px 6px red; */
+     
+}
+span{
+    color: red;
+
+}
+span:hover{
+    color: gold;
+    text-shadow:5px 4px 1px red;
+    background-color: black;
+    border-radius: 90px;
+    font-size: 50px;
+}
+
+#d11{
+    margin-left: 5px;
+    margin-top: 9px;
+    /* background-color: silver; */
+    /* border: solid 10px yellow; */
+    box-shadow: 2px -2px 8px 7px gold;
+    text-decoration: none;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    color: transparent;
+  text-shadow: 0px 0px 0px  skyblue;
+background-color: white;
+height: 45px;
+padding: 5px;
+background-image: linear-gradient(to left , darkblue , #022200);
+border-radius: 20px;
+
+}
+
+
+#d111{
+    margin-left: 150px;
+    margin-top: 9px;
+    /* background-color: silver; */
+    /* border: solid 10px yellow; */
+    box-shadow: 2px -2px 8px 7px gold;
+    text-decoration: none;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    color: transparent;
+  text-shadow: 0px 0px 0px  skyblue;
+background-color: white;
+height: 45px;
+padding: 5px;
+background-image: linear-gradient(to left , darkblue , #022200);
+border-radius: 20px;
+
+}
+#df{
+    
+        margin-left: 1855px;
+        margin-top: 9px;
+        /* background-color: silver; */
+        /* border: solid 10px yellow; */
+        box-shadow: 2px -2px 8px 7px gold;
+        text-decoration: none;
+        height: 20px;
+        font-size: 20px;
+        position: absolute;
+        color: transparent;
+      text-shadow: 0px 0px 0px  skyblue;
+    background-color: white;
+    height: 45px;
+    padding: 5px;
+    background-image: linear-gradient(to left , darkblue , #022200);
+    border-radius: 20px;
+    
+}
+
+#insta{
+    
+    margin-left: 2005px;
+    margin-top: 9px;
+    /* background-color: silver; */
+    /* border: solid 10px yellow; */
+    box-shadow: 2px -2px 8px 7px gold;
+    text-decoration: none;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    color: transparent;
+  text-shadow: 0px 0px 0px  skyblue;
+background-color: white;
+height: 45px;
+padding: 5px;
+background-image: linear-gradient(to left , darkblue , #022200);
+border-radius: 20px;
+
+}
+
+#github{
+    
+    
+        margin-left: 1690px;
+        margin-top: 9px;
+        /* background-color: silver; */
+        /* border: solid 10px yellow; */
+        box-shadow: 2px -2px 8px 7px gold;
+        text-decoration: none;
+        height: 20px;
+        font-size: 20px;
+        position: absolute;
+        color: transparent;
+      text-shadow: 0px 0px 0px  skyblue;
+    background-color: white;
+    height: 45px;
+    padding: 5px;
+    background-image: linear-gradient(to left , darkblue , #022200);
+    border-radius: 20px;
+    
+}
+
+#project{
+    
+    
+    margin-left: 300px;
+    margin-top: 9px;
+    /* background-color: silver; */
+    /* border: solid 10px yellow; */
+    box-shadow: 2px -2px 8px 7px gold;
+    text-decoration: none;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    color: transparent;
+  text-shadow: 0px 0px 0px  skyblue;
+background-color: white;
+height: 45px;
+padding: 5px;
+background-image: linear-gradient(to left , darkblue , #022200);
+border-radius: 20px;
+
+}
+
+#dchild{
+    background-color: red;
+    background-image: linear-gradient(to left , brown, #022200);
+    width: 800px;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 300px;
+    position: absolute;
+    /* border: 4px solid green;
+    border-radius: 10px; */
+    border-radius: 50px;
+    box-shadow: 2px 3px 85px 14px blue;
+}
+#ddchild{
+    width: 350px;
+    height: 400px;
+    background: radial-gradient(circle, navy,green  );
+    box-shadow: 2px 3px 80px 14px green;
+    border-radius: 120%;
+    text-align: center;
+    /* background-image: linear-gradient(to left, navy,green); */
+
+    position: absolute;
+     margin-top: 45px;              /*it's for absolute position  */
+    margin-left: 30%; 
+
+    /* position: fixed;
+    left: 40%;
+    top: 35%;      it's for fixed position */
+
+
+}
+ #para{
+    margin-top: 180px;
+    
+    text-shadow:3px 0px 1px red;
+    color: black;
+    font-size: 30px;
+    font-weight: 60px;
+    font-style: italic;
+ }
+
+  

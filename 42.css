@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+/* #d1,#d2,#d3,#d4 */
+
+div{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+    justify-content:space-evenly;
+    
+    background-image: linear-gradient(to left, navy , red );
+
+    box-shadow: 2px 3px 18px 4px green;
+    gap: 10px;
+    /* flex: 30px; */
+    flex-wrap: wrap; /*it's used for display setting, when we shrink off so it's convert vertically down elements.*/
+    /* align-content: center; */  /*it's use the particular time when we use flex-wrap..*/
+    
+}
+
+/* #d1{
+    box-shadow: 0px 1px 54px 5px blue;
+} */
+#container{
+  
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to left, blue -110% ,green);
+    
+}
+#d2{
+    flex-grow: 1; /*it's cover unused space */
+     flex-shrink: 5;
+     flex-basis: 10px;
+    flex: 30px;
+       /*1 -- flex-basis used for only width*/
+       /*2 --  flex target all elements' width equallay */
+}
+
+#d3{
+    align-self: center; /*ti's targer only individually elements instead of parents or child block/div */
+}
+#d2{
+    background-image: linear-gradient(to left, navy, red );
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-delay:0s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes hello{
+    10%{background-image: linear-gradient(to left, navy , red );}
+    20% {background-image: linear-gradient(to left, navy , green );}
+    30% {background-image: linear-gradient(to left, brown , yellow );}
+    40% {background-image: linear-gradient(to left, silver, red );}
+    50% {background-image: linear-gradient(to left, pink , deeppink );}
+    90% {background-image: linear-gradient(to left, black , green );}
+    from{margin-top: 0px;}
+    to {margin-top:350px;}
+ 
+}
+#d3:hover{
+    background-position: 100px;
+}
