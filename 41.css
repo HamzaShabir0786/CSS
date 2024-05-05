@@ -14,6 +14,8 @@ div{
     margin: 10px;
     border: 12px solid blue;
     border-radius: 12px;
+    flex-grow: 5;
+    flex-shrink: 0;
 }
 #main{
     width: 100%;
@@ -21,4 +23,5 @@ div{
     background-image: linear-gradient(to left, blue -150%,green);
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
 }

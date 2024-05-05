@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:radial-gradient( pink  , skyblue);
+}
+h1{
+    text-align: center;
+}
+
+p{
+    border: 3px solid green ;
+    /* writing-mode: vertical-lr; */
+    writing-mode:vertical-rl;
+    /* writing-mode: sideways-rl; */
+    /* writing-mode: sideways-lr; */
+    
+}

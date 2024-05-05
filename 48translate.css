@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid green;
+    margin-top: 180px;
+    margin-left: 510px;
+    transition: all 1s linear;
+    box-shadow: 2px 5px 12px 3px lightblue;
+    /* animation-name: hamza;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function:linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes hamza{
+    from{
+         margin-left: 0px;
+         scale: 2; 
+    }
+    to{
+         margin-left: 75%; 
+         scale: 0.01; 
+    } 
+} */
+
+img:hover{
+    /* transform: translateX(600px); */
+    transform: rotate(20deg); 
+    transform-origin:right ;
+    /* transform: skew(-50deg); */
+     /* transform: scale(0.001); */
+     /* transform: scaleY(2); */
+}

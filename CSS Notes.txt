@@ -37,11 +37,11 @@ align-self, flex-grow, flex-shrink
     div{background-color: aqua;}}
 --------------------------------------------
 
-10.Transitions
-   transition-property :font-size, width, etc..
-   transition-duration: 3s/5ms..
-   transition-timing-function: ease-in/ ease-out/ liner/ step..
-   transition-delay: 2s/5ms, etc  
+10 Transitions:
+   1 transition-property :font-size, width, etc..
+   2 transition-duration: 3s/5ms..
+   3 transition-timing-function: ease-in/ ease-out/ liner/ step..
+   4 transition-delay: 2s/5ms, etc  
 
 
 11 transition-property: all; 
@@ -61,14 +61,15 @@ align-self, flex-grow, flex-shrink
       transform:rotateY(45deg);
       transform:rotateZ(45deg);
       transform:rotateX(45deg);
+      transform-origin:right;
 
-14 Scale property..
+14 Scale property:
    used for anything to reduce or spread.
-
-     transform:scale(2);
-      transform:scarle(0.5);
-      transform:scaleY(2)
+    transform:scale(2);
+    transform:scarle(0.5);
+    transform:scaleY(2)
 	transform:scaleX(2)
+
 15 Skew property..
   transform:skew(72deg)
 
@@ -263,9 +264,48 @@ animation:myname 2s linear 3s infinite normal
     5 flex-grow:1;
     6 flex-shrink:5;
     7 gap:4px;
-    8 flex-basis:4px;
+    8 flex-basis:4px; NOte: it's increase width of child div.
     9 flex-wrap:wrap;
-    5 aspect-ratio:1; NOte: it does double size of elements..
+    10 align-self:center; Note:it's target only single elements of parent div.. this only one property that can target in single child div.
+    11 align:3;             NOte:it gives equal space of child elements.. 
+    12 aspect-ratio:1;      NOte: it does double size of elements..
+    13 align-content:center;  Note: it property unlock when we use flex-wrap property
+
+
+56..Specificity Selectors in CSS:
+    1 * (universal selector)
+    2 Element/ pseudo elements
+    3 class or pseudo-class
+    4 Id
+    5 inline style
+    6 !important
+
+57..The level of Specificity in CsS:
+    3.6.4.2.1 
+    The universal selector has 0 Specificity (No priority)
+    1 is universal
+    2 is class
+    4 is ID
+    6 is inline
+    3 is !important and important is most powerfull
+
+58.. New Features-CSS:
+     1 :is, :has, :not, :where
+     2 Media query range syntax
+     3 Container queries
+     4 Accent-color
+     5 Aspect ration
+     6 Scroll snap    
+     7 Individual transform properties
+     8 CSS Nesting
+     9 Gap property for flexbox
+     10 CSS logical properties (inline and Block)
+     11 CSS writing mode
+     12 :focus-visible
+     
+
+
+
 
 
 

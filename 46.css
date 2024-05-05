@@ -42,7 +42,7 @@ p::first-line{
 }
 
 p::selection{
-    background-color:yellow ;
+    background-color:lightblue ;
 }
 div{
     height: 800px;
