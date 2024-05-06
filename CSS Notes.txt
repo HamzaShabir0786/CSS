@@ -302,18 +302,15 @@ animation:myname 2s linear 3s infinite normal
      10 CSS logical properties (inline and Block)
      11 CSS writing mode
      12 :focus-visible
+
+59..Bonus CSS:
+    1 Floats
+    2 CSS Clip Path
+    3 AOS Plugin
+    4 shape divider
+    5 scroll bar styling
+    6 web site refrence Note:it's source code of course by sir      
      
-
-
-
-
-
-
-
-
-
-
-
 
 
 

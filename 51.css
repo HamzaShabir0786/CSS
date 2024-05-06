@@ -1,0 +1,43 @@
+*{margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+
+    background-image: linear-gradient(to left, green ,red);
+    height: 50px;
+    color: aliceblue;
+    font-style: italic;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left,blue , green);
+
+}
+div{
+    height: 50vh;
+    width: 30%;
+    background-image: linear-gradient(to left, pink ,skyblue);
+    margin-left: 500px;
+    margin-top: 10px;
+    border: 5px solid red;
+    border-radius: 15px;
+    border-style:groove;
+    list-style-position: inside;
+    display:grid;
+    /* align-content: center;
+    justify-content: center; */
+ 
+    
+    
+
+}
+div:has([type="checkbox"]:checked) /*#l1,#l2,#l3,#l4,#l5,#l6 */  li{
+    
+    accent-color: green;
+    color: red;
+    font-style: italic;
+    
+    
+}
