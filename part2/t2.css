@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+#d1{
+    width: 900px;
+    height: 500px;
+    
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQFVBq-FTxBPYQ/article-cover_image-shrink_600_2000/0/1694422638964?e=2147483647&v=beta&t=kllydNJ3-ToPeiaypztlQtocSEVrDAVcplgy5AFlAQQ);
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation-name: cars;
+    animation-duration: 20s;
+    animation-delay: 0ms;
+    animation-timing-function:linear;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes cars{
+    0%{background-image: url(https://media.licdn.com/dms/image/D4D12AQFVBq-FTxBPYQ/article-cover_image-shrink_600_2000/0/1694422638964?e=2147483647&v=beta&t=kllydNJ3-ToPeiaypztlQtocSEVrDAVcplgy5AFlAQQ);}
+    20%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWtyoKr8-EgU3I8xH4GlEJiPOqPszxHJLWcw&usqp=CAU) ;}
+    40%{background-image: url(https://cdn.luxe.digital/media/20240102120752/most-expensive-cars-luxe-digital.jpg);}
+    60%{ background-image: url(https://www.thesun.co.uk/wp-content/uploads/2024/03/rolling-rolls-royce-unveils-world-883505015.jpg);}
+    80%{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofrgJcGOh1QCC8mlHQLIIj2hdJRC1ZMSafnUZIQVff5x_f3HGg3d6nJR_Fo-LHc_YSTo&usqp=CAU);}
+    100%{ background-image: url(https://hips.hearstapps.com/hmg-prod/images/honda-prelude-concept-front-three-quarters-653927960f1f4.jpg?crop=1.00xw:0.920xh;0,0.0801xh&resize=980:* );}
+    120%{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX6usVsYDR00eyja2CkE5cHTkpCqtxV5KL0g&usqp=CAU);}
+    140%{ background-image: url(https://www.thesun.co.uk/wp-content/uploads/2024/03/rolling-rolls-royce-unveils-world-883505015.jpg);}
+}

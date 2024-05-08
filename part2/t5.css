@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+ 
+  font-size: 190px;
+
+}
+#i1{
+    background: -webkit-linear-gradient(top,  orange 40%,  navy 20%, darkgreen 40%);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

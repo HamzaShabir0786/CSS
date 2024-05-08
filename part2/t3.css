@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to left, skyblue,pink);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+button{
+    width: 550px;
+    height: 50px;
+    border: 5px groove slateblue;
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: -2px 2px 1px red; 
+    background-color: transparent;
+}
+button:focus{
+    color: green;
+    border-color: red;
+    background-color: whitesmoke;
+    animation-name: shake ;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    
+
+    
+}
+div{
+    width: 500px;
+    column-count: 3;
+    column-rule-color: yellow;
+    column-rule-width: 3px;
+    column-rule-style: groove;
+    gap: 15px;
+    color: blue;
+    height: auto;
+    font-size: 20px;
+    z-index: 1;
+
+    
+}
+
+@keyframes shake{
+    /* 0%{rotate: 45deg;}
+    50%{rotate: -45deg;} */
+    100%{rotate: 360deg;}
+
+}
