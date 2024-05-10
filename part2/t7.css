@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 300px;
+    color: white;
+    display: grid;
+    place-items: center;
+    position:relative;
+
+}
+h1{
+ position: absolute;
+ 
+ text-align: center;
+ 
+  
+
+}
+h1::before{
+    content: 'HelloWorld';
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 4px solid green;
+    width: 0%; 
+    overflow: hidden;
+
+  animation-name: ani;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse; 
+  
+}
+
+@keyframes ani{
+    0%{width: 0%;}
+    50%{width: 100%;}
+    100%{width: 0%;}
+    
+}

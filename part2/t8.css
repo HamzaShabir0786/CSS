@@ -1,0 +1,44 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-size: 44px;
+    display: grid;
+    place-items: center;
+    position: relative;
+
+}
+h1{
+    position: absolute;
+
+
+ 
+
+}
+div{
+    height: 150px;
+    width: 5px;
+    background-color: green;
+        margin-left: -450px;
+        margin-left:450px ;
+    animation: naam .46s linear 0s infinite reverse ;
+
+}
+
+@keyframes naam{
+    0%{
+        margin-left: -450px;
+
+
+    }
+    50%{margin-left: 450px;}
+
+    100%{margin-left: -150px;}
+
+    
+    
+    
+}
