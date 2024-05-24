@@ -21,7 +21,6 @@ body{
     animation-duration: 20s;
     animation-delay: 0ms;
     animation-timing-function:linear;
-    animation-direction:alternate-reverse;
     animation-iteration-count: infinite;
     
 }

@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-body{background-color: silver;}
+body{background-image: linear-gradient(to left, white, blue);}
 
 *{  padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 html{
     font-size: 62.5%;
-
 }
 p, li ,a{
     font-family: "Urbanist";
     font-size: 1.8rem;
     letter-spacing: .1rem;
     color: var(--para-color);
+    line-height: 1.5;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "poppins", sans-serif;
@@ -29,23 +30,21 @@ h1,h2,h3,h4,h5,h6{
     --bg-color:#ffffff;
     --heading-color:#000a19;
     --para-color:#504e4d;
-
-
-
+    --btn-box-shadow:rgba(100 ,100 ,111 ,0.2) 0px 7px 29px 0px ;
 }
 .container{
     max-width: 142rem;
     margin: 0 auto;
     padding: 9.6rem 2.4rem;
     font-weight: 400;
+    
 }
 .section-navbar{
+    position:normal ;
     width: 100%;
     box-shadow:rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    background-image: linear-gradient(to left, skyblue , pink);
-  
-
+    background-image: linear-gradient(to left,  gray, blue  );
 }
 .section-navbar .container{
     display: flex;
@@ -59,16 +58,17 @@ h1,h2,h3,h4,h5,h6{
     gap: 3.2rem;
     
 }
-a{
+.nav-link{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     display: inline-block;
     font-size: 1.6rem;
     position: relative;
+    color: white;
 }
 
-li a::after{
+li .nav-link::after{
     content: '';
     position: absolute;
     left: 0px;
@@ -82,4 +82,52 @@ width: 100%;
 }
 li{
     list-style: none;
+}
+
+.grid{
+    display: grid;
+}
+.grid-two--cols{
+    grid-template-columns: repeat(2, 1fr) ;
+}
+.btn{
+    padding: 1.2rem 3.2rem;
+    background-color: var(--main-color);
+    text-decoration: none;
+    display: inline-block;
+    color: var(--supporting-color);
+    border-radius: .6rem;
+}
+.btn:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    box-shadow: var();
+}
+.section-hero--image{
+    width: 100%;
+    height: auto;
+
+
+}
+.section-hero .grid{
+    align-items: center;
+    gap: 6.2rem;
+     & .hero-subheading{
+                text-transform: uppercase;
+                letter-spacing: 0.2rem;
+                font-size: 1.7rem;
+                word-spacing: .2rem;
+                font-weight: 700;
+     }
+
+     & .hero-heading{
+        font-size: 5.8rem;
+        font-weight: 900;
+        line-height: 1.5;
+     }
+
+     & .hero-para{
+        color: var(--supporting-color);
+        margin: 2rem 0 4rem 0 ;
+     }
 }

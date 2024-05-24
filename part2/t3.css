@@ -31,10 +31,7 @@ button:focus{
     animation-delay: 0;
     animation-timing-function: linear;
     animation-direction: normal;
-    animation-iteration-count: infinite;
-    
-
-    
+    animation-iteration-count: infinite;    
 }
 div{
     width: 500px;
@@ -47,13 +44,10 @@ div{
     height: auto;
     font-size: 20px;
     z-index: 1;
-
-    
 }
 
 @keyframes shake{
     /* 0%{rotate: 45deg;}
     50%{rotate: -45deg;} */
     100%{rotate: 360deg;}
-
 }
