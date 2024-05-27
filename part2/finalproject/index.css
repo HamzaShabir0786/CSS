@@ -111,6 +111,7 @@ li{
     width: 100%;
     height: auto;
     padding: 2.7rem;
+    border-bottom: 5px solid darkred;
 
 
 }
@@ -124,6 +125,9 @@ li{
                 word-spacing: .2rem;
                 font-weight: 700;
                 color: darkgoldenrod;
+                border-bottom: 5px solid darkred;
+                padding-bottom:1rem ;
+                
      }
 
      & .hero-heading{
@@ -135,6 +139,7 @@ li{
      & .hero-para{
         color: var(--supporting-color);
         margin: 2rem 0 4rem 0 ;
+        
      }
 }
 
@@ -205,6 +210,7 @@ main{
 .section-comon--title{
     font-size: 2rem;
     margin: 2.4rem 0rem 1.21rem 0rem ;
+    color: darkred;
 }
 
 .grid-three--cols{
