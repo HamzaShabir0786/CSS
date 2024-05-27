@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-body{background-image: linear-gradient(to left, white, blue);}
+
 
 *{  padding: 0px;
     margin: 0px;
@@ -58,6 +58,9 @@ h1,h2,h3,h4,h5,h6{
     gap: 3.2rem;
     
 }
+.section-hero{
+    background-image: linear-gradient(to left, white, blue);
+}
 .nav-link{
     text-decoration: none;
     text-transform: uppercase;
@@ -79,6 +82,7 @@ li .nav-link::after{
 }
 li a:hover::after{
 width: 100%;
+border-color: red;
 }
 li{
     list-style: none;
@@ -106,6 +110,7 @@ li{
 .section-hero--image{
     width: 100%;
     height: auto;
+    padding: 2.7rem;
 
 
 }
@@ -118,6 +123,7 @@ li{
                 font-size: 1.7rem;
                 word-spacing: .2rem;
                 font-weight: 700;
+                color: darkgoldenrod;
      }
 
      & .hero-heading{
@@ -130,4 +136,86 @@ li{
         color: var(--supporting-color);
         margin: 2rem 0 4rem 0 ;
      }
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    height:auto ;
+
+}
+.custom-shape-divider-bottom-1716759305 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716759305 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1716759305 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.section-about{
+    /* background-image:linear-gradient(to left, skyblue, white); */
+    
+    
+    & .grid{
+        gap: 6.2rem;
+    }
+    
+}
+
+.section-about img{
+    padding: 1rem;
+    background-color: var(--supporting-color);
+    width: 15rem;
+    height: auto;
+    border-radius:50%;
+    box-shadow: 2px 0px 34px 3px blue;
+
+}
+.section-about .about-div{
+    text-align: center;
+}
+
+
+
+.section-comon-heading{
+        font-size: 3.2rem;
+        font-weight: 700;
+        text-transform: capitalize;
+}
+.section-comon-subheading{
+    color:#000a19;
+    font-size: 2.2rem;
+}
+.section-comon--title{
+    font-size: 2rem;
+    margin: 2.4rem 0rem 1.21rem 0rem ;
+}
+
+.grid-three--cols{
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.section-about img{
+    transition: all 0.5s linear;
+
+}
+.about-div .icon:hover>img{
+    transform: rotate(360deg);
+    background-color: silver;
 }
